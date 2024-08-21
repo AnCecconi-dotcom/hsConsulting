@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Servicios } from './components/Servicios';
 import { Clientes } from './components/Clientes';
 import { Calidad } from './components/Calidad';
+import { ProteccionDatos } from './components/ProteccionDatos';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Servicios /> 
       <Clientes />
       <Calidad />
+      <ProteccionDatos />
     </>
   )
 };

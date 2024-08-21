@@ -221,3 +221,10 @@ p {
     margin: auto;
     background: linear-gradient(to right,rgba(95, 15, 64, 0.2), rgba(154, 3, 30, 0.2), rgba(227, 100, 20, 0.2), rgba(251, 139, 36, 0.2), rgba(15, 76, 92, 0.2));
 }
+
+/* ESTILOS PROTECCION DE DATOS */
+
+.marginProteccion {
+    width: 50%;
+    margin: auto;
+}
