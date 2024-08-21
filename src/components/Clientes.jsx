@@ -102,7 +102,7 @@ export const Clientes = () => {
         <div>
             <h2>Nuestros Clientes</h2>
             <div className='d-flex justify-content-center m-5'>
-                <div className="card cardClientes d-flex flex-row gap-5 align-items-center my-5 py-5" style={{ width: '50rem', }}>
+                <div className="card cardClientes d-flex flex-row gap-5 align-items-center my-5 py-5" style={{ width: '50rem', height:'15rem' }}>
                     <img src={selectClient.image} className={`card-img-top ${selectClient.logoClass}`} alt="logo" />
                     <div className="card-body">
                         <p className="card-text normal cursiva">{selectClient.comment}</p>

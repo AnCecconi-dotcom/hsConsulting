@@ -70,6 +70,9 @@ p {
 .normal {
     text-align: start;
 }
+.centrar {
+    text-align: center;
+}
 .cursiva {
     font-style: italic;
 }
@@ -198,4 +201,23 @@ p {
     transform: scale(1.1);
     opacity: 1;
     transition: all 0.3s ease;
+}
+
+/* ESTILOS CALIDAD */
+
+.marginCalidad {
+    width: 50%;
+    margin: auto;
+}
+
+.imgCalidad {
+    width: 20%;
+    margin: auto;
+}
+
+.cardCalidad {
+    width: 55rem;
+    height: 5rem;
+    margin: auto;
+    background: linear-gradient(to right,rgba(95, 15, 64, 0.2), rgba(154, 3, 30, 0.2), rgba(227, 100, 20, 0.2), rgba(251, 139, 36, 0.2), rgba(15, 76, 92, 0.2));
 }
