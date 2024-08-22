@@ -16,6 +16,8 @@
     --quinary-color: #0F4C5C;
     --text-color: black;
     --secondary-text-color: #FB8B24;
+    --background-color: #ffffff;
+    --background-footer-color: #f2f2f2;
 
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
@@ -23,6 +25,8 @@
 
 html,
 body {
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: var(--primary-font);
     overflow-x: hidden;
 }
@@ -64,15 +68,19 @@ p {
     color: var(--secondary-text-color);
     font-weight: bold;
 }
+
 .justificado {
     text-align: justify;
 }
+
 .normal {
     text-align: start;
 }
+
 .centrar {
     text-align: center;
 }
+
 .cursiva {
     font-style: italic;
 }
@@ -131,7 +139,7 @@ p {
 
 .cardServicios:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgb(227, 100, 20, 0.9); 
+    box-shadow: 0 0 20px rgb(227, 100, 20, 0.9);
 }
 
 .cardServicios-hover-content {
@@ -179,6 +187,7 @@ p {
     border: none;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .cardClientes img {
     width: 50%;
     height: 50%;
@@ -191,13 +200,13 @@ p {
     object-fit: contain;
 }
 
-#clientesMap img{
+#clientesMap img {
     width: auto;
     opacity: 0.5;
     cursor: pointer;
 }
 
-#clientesMap img:hover{
+#clientesMap img:hover {
     transform: scale(1.1);
     opacity: 1;
     transition: all 0.3s ease;
@@ -219,7 +228,7 @@ p {
     width: 55rem;
     height: 5rem;
     margin: auto;
-    background: linear-gradient(to right,rgba(95, 15, 64, 0.2), rgba(154, 3, 30, 0.2), rgba(227, 100, 20, 0.2), rgba(251, 139, 36, 0.2), rgba(15, 76, 92, 0.2));
+    background: linear-gradient(to right, rgba(95, 15, 64, 0.2), rgba(154, 3, 30, 0.2), rgba(227, 100, 20, 0.2), rgba(251, 139, 36, 0.2), rgba(15, 76, 92, 0.2));
 }
 
 /* ESTILOS PROTECCION DE DATOS */
@@ -227,4 +236,34 @@ p {
 .marginProteccion {
     width: 50%;
     margin: auto;
+}
+
+/* ESTILOS FOOTER */
+#footer {
+    background-color: var(--background-footer-color);
+    opacity: 1;
+    color: var(--text-color);
+    padding: 2rem;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer li {
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#footer li:hover {
+    color: var(--secondary-text-color);
+}
+
+.imgFooter {
+    max-height: 100px;
+    flex-shrink: 0;
+
 }
