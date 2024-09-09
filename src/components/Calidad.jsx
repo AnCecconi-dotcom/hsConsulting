@@ -3,7 +3,7 @@ import ISO from '../assets/certificadoISO.png'
 
 export const Calidad = () => {
     return (
-        <div className='d-flex flex-column justify-content-center gap-5'>
+        <div className='d-flex flex-column justify-content-center gap-5 background-circle5'>
             <h2 className='py-5'>Calidad</h2>
             <p className='centrar marginCalidad py-2'>
                 Nuestros procesos de diseño y desarrollo de software a medida, mantenimiento de aplicaciones propias y de terceros y testing de sistemas informáticos están <span className='resaltado'>certificados ISO 9001:2015 y la guía IEC 90003</span> </p>

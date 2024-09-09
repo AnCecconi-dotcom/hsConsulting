@@ -99,7 +99,7 @@ export const Clientes = () => {
 
 
     return (
-        <div>
+        <div className='background-circle3'>
             <h2>Nuestros Clientes</h2>
             <div className='d-flex justify-content-center m-5'>
                 <div className="card cardClientes d-flex flex-row gap-5 align-items-center my-5 py-5" style={{ width: '50rem', height:'15rem' }}>

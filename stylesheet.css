@@ -85,6 +85,48 @@ p {
     font-style: italic;
 }
 
+.background-circle1{
+    background-image: url('../hsConsulting/src/assets/circuloFondo.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center right;
+    position: relative;
+}
+
+.background-circle2{
+    background-image: url('../hsConsulting/src/assets/circuloFondo.png');
+    background-repeat: no-repeat;
+    background-size: 29%;
+    background-position: left top;
+    position: relative;
+}
+
+.background-circle3{
+    background-image: url('../hsConsulting/src/assets/circuloFondo.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: right bottom;
+    position: relative;
+}
+
+.background-circle4{
+    background-image: url('../hsConsulting/src/assets/circuloFondo.png');
+    background-repeat: no-repeat;
+    background-size: 42%;
+    background-position: left bottom;
+    position: relative;
+}
+
+.background-circle5 {
+    background-image: url('../hsConsulting/src/assets/circuloFondo.png');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center left;
+    position: relative;
+}
+
+
+
 /* NAVBAR en PANTALLAS GRANDES*/
 @media (min-width: 992px) {
     .navbar-nav {

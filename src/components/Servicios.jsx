@@ -6,7 +6,7 @@ import img4 from '../assets/d&d.png';
 
 export const Servicios = () => {
     return (
-        <div>
+        <div className='background-circle4'>
             <h2 className='mt-5'>Nuestros Servicios</h2>
             <div className='d-flex flex-row align-items-center gap-3'>
                 <div className='ps-5'>

@@ -4,7 +4,7 @@ import carousel2 from '../assets/carousel2.png'
 
 export const Carousel = () => {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide my-4">
+        <div id="carouselExampleIndicators" className="carousel slide my-4 background-circle1">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
