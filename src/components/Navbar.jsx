@@ -10,7 +10,7 @@ export const Navbar = () => {
             <div className="container-fluid">
                 {/* Logo visible solo en pantallas pequeñas */}
                 <a className="navbar-brand d-lg-none d-flex flex-column align-items-center" href="#">
-                    <img className="w-75 pb-2" src={logoHS} alt="hs" />
+                    <img className="logo w-75 pb-2" src={logoHS} alt="hs" />
                     <img className="w-75" src={consulting} alt="consulting" />
                 </a>
 
@@ -25,7 +25,7 @@ export const Navbar = () => {
                         <a className="nav-link" href="#">AdInsurance</a>
                         {/* Logo visible solo en pantallas grandes */}
                         <a className="navbar-brand d-none d-lg-flex flex-column align-items-center mx-4" href="#">
-                            <img className="w-75 pb-2" src={logoHS} alt="hs" />
+                            <img className="logo w-75 pb-2" src={logoHS} alt="hs" />
                             <img className="w-75" src={consulting} alt="consulting" />
                         </a>
                         <a className="nav-link" href="#">Trabaja con nosotros</a>

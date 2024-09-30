@@ -26,8 +26,10 @@ export const Footer = () => {
                 <img className='imgFooter pe-5 me-5' src={dataFiscal} alt="data fiscal" />
                 <img className='imgFooter ps-5 ms-5' src={responsableRegistrado} alt="responsable registrado" />
             </div>
-            <div className=''>
-                <img src={linkedin} alt="linkedin" />
+            <div>
+                <a href="https://www.linkedin.com/company/hs-consulting/posts/?feedView=all" target="blank">
+                    <img src={linkedin} alt="linkedin" className='linkedinButton' />
+                </a>
             </div>
         </div>
     )
